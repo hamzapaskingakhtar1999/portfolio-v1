@@ -1,0 +1,27 @@
+body {
+    padding: 0;
+    margin: 0;
+    left: 0;
+}
+h1,h2,h3,h4,h5,p {
+    margin: 0;
+}
+
+
+.center {
+    width: 80%;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .heading {
+    background: #19A4CF;
+    background: radial-gradient(circle farthest-corner at center center, #19A4CF 0%, #681CFF 25%, #05C1FF 50%, #4255FF 75%, #3902CF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+

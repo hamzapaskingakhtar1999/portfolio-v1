@@ -1,0 +1,6 @@
+/* #008CA5;
+
+background: #19A4CF;
+background: radial-gradient(circle farthest-corner at center center, #19A4CF 0%, #681CFF 25%, #05C1FF 50%, #4255FF 75%, #3902CF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; */

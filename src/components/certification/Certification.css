@@ -1,0 +1,22 @@
+.certification {
+    overflow: hidden;
+    margin-top: 40px;
+}
+.certifcation-heading {
+    font-size: 42px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.certificate-image {
+    height: 400px;
+    width: 550px;
+}
+
+/* Media */
+@media screen and (max-width:1024px) {
+    .certificate-image {
+        height: 300px;
+        width: 300px;
+    }
+}
