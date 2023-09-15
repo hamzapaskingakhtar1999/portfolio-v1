@@ -22,7 +22,7 @@ export const ProjectData = [
     description:
       "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching and comparing cars.",
     demo: "https://car-rental-hpa.netlify.app/",
-    code: "https://admin-dashboard-hpa.netlify.app/",
+    code: "https://car-rental-hpa.netlify.app/",
     stack: "ReactJS + CSS",
   },
   {
@@ -31,7 +31,7 @@ export const ProjectData = [
     description:
       "A fast food website from which user can check multiple food items. The deals being offered and the different categories.",
     demo: "https://fastfood-hpa.netlify.app/",
-    code: "https://admin-dashboard-hpa.netlify.app/",
+    code: "https://fastfood-hpa.netlify.app/",
     stack: "ReactJS + CSS",
   },
   {
@@ -57,8 +57,8 @@ export const ProjectData = [
     title: "Coin Info",
     description:
       "Coin Info is a crypto app that allows users to look at the top 100 coins and analyse their market performance and get a brief info about it.",
-    demo: "https://restaurant-landing-page-hpa.netlify.app/",
-    code: "https://restaurant-landing-page-hpa.netlify.app/",
+    demo: "https://coin-info-version1-hpa.netlify.app",
+    code: "https://coin-info-version1-hpa.netlify.app",
     stack: "ReactJS + CSS",
   },
 ];

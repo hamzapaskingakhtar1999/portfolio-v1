@@ -18,6 +18,8 @@ import Circle from "../../assets/Circle.svg";
 /* PNG */
 import water from "../../assets/water.jpeg";
 
+import { Rotate } from "react-reveal";
+
 const About = () => {
   return (
     <>
@@ -40,30 +42,60 @@ const About = () => {
               <div className="skill">
                 <h1 className="skill-heading">Tech Stack</h1>
                 <div className="skill-items">
-                  <div className="skill-item">
-                    <img src={HTML} className="skill-icon" />
-                  </div>
-                  <div className="skill-item">
-                    <img src={CSS} className="skill-icon" />
-                  </div>
-                  <div className="skill-item">
-                    <img src={JS} className="skill-icon" />
-                  </div>
-                  <div className="skill-item">
-                    <img src={REACTJS} className="skill-icon" />
-                  </div>
-                  <div className="skill-item">
-                    <img src={SOCKET} className="skill-icon" />
-                  </div>
-                  <div className="skill-item">
-                    <img src={GIT} className="skill-icon" />
-                  </div>
-                  <div className="skill-item">
-                    <img src={FIRE} className="skill-icon" />
-                  </div>
-                  <div className="skill-item">
-                    <img src={WORDPRESS} className="skill-icon" />
-                  </div>
+                  <Rotate top left>
+                    <div className="skill-item">
+                      <img src={HTML} className="skill-icon" />
+                    </div>
+                  </Rotate>
+
+                  <Rotate top right>
+                    {" "}
+                    <div className="skill-item">
+                      <img src={CSS} className="skill-icon" />
+                    </div>
+                  </Rotate>
+
+                  <Rotate top left>
+                    {" "}
+                    <div className="skill-item">
+                      <img src={JS} className="skill-icon" />
+                    </div>
+                  </Rotate>
+
+                  <Rotate top right>
+                    {" "}
+                    <div className="skill-item">
+                      <img src={REACTJS} className="skill-icon" />
+                    </div>
+                  </Rotate>
+
+                  <Rotate top left>
+                    {" "}
+                    <div className="skill-item">
+                      <img src={SOCKET} className="skill-icon" />
+                    </div>
+                  </Rotate>
+
+                  <Rotate top right>
+                    {" "}
+                    <div className="skill-item">
+                      <img src={GIT} className="skill-icon" />
+                    </div>
+                  </Rotate>
+
+                  <Rotate top left>
+                    {" "}
+                    <div className="skill-item">
+                      <img src={FIRE} className="skill-icon" />
+                    </div>
+                  </Rotate>
+
+                  <Rotate top right>
+                    {" "}
+                    <div className="skill-item">
+                      <img src={WORDPRESS} className="skill-icon" />
+                    </div>
+                  </Rotate>
                 </div>
               </div>
             </div>
