@@ -5,6 +5,7 @@ import Coin from "../assets/project/Coin.png";
 import Car from "../assets/project/Car Rental.png";
 import Food from "../assets/project/Food.png";
 import Total from "../assets/project/Total.png";
+import Water from "../assets/project/Water.png";
 
 export const ProjectData = [
   {
@@ -51,6 +52,15 @@ export const ProjectData = [
     demo: "https://totalbuilder.ie",
     code: "https://totalbuilder.ie",
     stack: "WordPress",
+  },
+  {
+    img: Water,
+    title: "Water Treatment Landing Page",
+    description:
+      "A landing page for a Water treatment company in Ireland. They needed to display their services along with their water treatment products.",
+    demo: "https://www.watertreatmentservices.ie/",
+    code: "https://www.watertreatmentservices.ie/",
+    stack: "Wix",
   },
   {
     img: Coin,
