@@ -20,8 +20,8 @@ import water from "../../assets/water.jpeg";
 const About = () => {
   return (
     <>
-      <div className="about center">
-        <div className="about-container">
+      <div className="about center" id="about">
+        <div className="about-container ">
           <div className="about-content">
             <img src={Circle} id="loading" />
             <img src={water} className="about-image" />

@@ -8,18 +8,23 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Portfolio from "./components/portfolio/Portfolio";
 
+/* React-Router-DOM */
+import { BrowserRouter, Link } from "react-router-dom";
+
 function App() {
   return (
     <>
-      <div className="app">
-        <Navbar />
-        <Hero />
-        <About />
-        <Portfolio />
-        <Certification />
-        <Contact />
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <div className="app">
+          <Navbar />
+          <Hero />
+          <About />
+          <Portfolio />
+          <Certification />
+          <Contact />
+          <Footer />
+        </div>
+      </BrowserRouter>
     </>
   );
 }

@@ -9,6 +9,9 @@ import HPA from "../../assets/HPA.svg";
 /* React Icons */
 import { FaBars } from "react-icons/fa";
 
+/* DOM */
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const [active, setActive] = useState(false);
 
@@ -21,11 +24,23 @@ const Navbar = () => {
         <img src={HPA} className="logo" />
       </div>
       <ul className={`link-items ${active ? "active" : ""}`}>
-        <li className="link-item">Home</li>
-        <li className="link-item">About</li>
-        <li className="link-item">Portfolio</li>
-        <li className="link-item">Services</li>
-        <li className="link-item">Contact</li>
+        <a href="#home">
+          {" "}
+          <li className="link-item">Home</li>
+        </a>
+        <a href="#about">
+          <li className="link-item">About</li>
+        </a>
+        <a href="#portfolio">
+          {" "}
+          <li className="link-item">Portfolio</li>
+        </a>
+        <a href="#contact">
+          {" "}
+          <li className="link-item">Contact</li>
+        </a>
+
+        {/*         <li className="link-item">Services</li> */}
       </ul>
       <div className="right hide">
         <button className="navbar-button">View Resume</button>

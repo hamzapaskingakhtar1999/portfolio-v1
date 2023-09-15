@@ -34,7 +34,7 @@ const Certification = () => {
   };
 
   return (
-    <div className="certification center">
+    <div className="certification center" id="certification">
       <h2 className="certifcation-heading heading"> Certifications</h2>
       <Slider {...settings}>
         <div>

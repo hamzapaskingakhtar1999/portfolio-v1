@@ -8,7 +8,6 @@
     flex-direction: row;
     justify-content: space-evenly;
     color: white;
-    flex-wrap: wrap;
 }
 
 .footer-item {
@@ -32,4 +31,11 @@
     color: whitesmoke;
     text-align: center;
     padding: 42px 0;
+}
+
+/* Media */
+@media screen and (max-width:768px) {
+    .footer-items {
+        flex-direction: column;
+    }
 }

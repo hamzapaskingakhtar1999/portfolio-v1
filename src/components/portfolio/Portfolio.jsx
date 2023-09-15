@@ -12,7 +12,7 @@ import { TfiNewWindow } from "react-icons/tfi";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio center">
+    <div className="portfolio center" id="portfolio">
       <h1 className="heading portfolio-heading">Portfolio</h1>
       <p className="portfolio-description">Check Out Some of My Works. 🧩</p>
       <div className="portfolio-items">

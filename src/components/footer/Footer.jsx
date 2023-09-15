@@ -13,7 +13,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <div className="footer-items">
         <div className="footer-item">
           <PiMapPinLight className="footer-icon" />
