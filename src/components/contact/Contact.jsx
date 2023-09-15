@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 /* CSS */
 import "./Contact.css";
 
 const Contact = () => {
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    setMessage("Unable to send message. Please try again later");
+    e.preventDefault();
+  };
+
   return (
     <div className="contact" id="contact">
       <div className="center contact-container">
@@ -18,6 +25,22 @@ const Contact = () => {
           <input type="text" placeholder="Email" />
           <input type="text" placeholder="Phone Number" />
           <textarea placeholder="Message" rows="5" cols="50" />
+          <button
+            type="submit"
+            style={{
+              textAlign: "center",
+              padding: "10px",
+              fontSize: "20px",
+              cursor: "pointer",
+              backgroundColor: "#00A8C5",
+              border: "none",
+              color: "white",
+            }}
+            onClick={handleSubmit}
+          >
+            Submit
+          </button>
+          <p style={{ color: "white" }}>{message}</p>
         </form>
       </div>
     </div>

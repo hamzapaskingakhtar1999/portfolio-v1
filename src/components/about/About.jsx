@@ -11,6 +11,7 @@ import REACTJS from "../../assets/reactjs.svg";
 import SOCKET from "../../assets/socket.svg";
 import GIT from "../../assets/git.svg";
 import FIRE from "../../assets/fire.svg";
+import WORDPRESS from "../../assets/wordpress.svg";
 
 import Circle from "../../assets/Circle.svg";
 
@@ -59,6 +60,9 @@ const About = () => {
                   </div>
                   <div className="skill-item">
                     <img src={FIRE} className="skill-icon" />
+                  </div>
+                  <div className="skill-item">
+                    <img src={WORDPRESS} className="skill-icon" />
                   </div>
                 </div>
               </div>

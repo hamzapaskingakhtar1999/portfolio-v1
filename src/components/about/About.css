@@ -112,6 +112,8 @@
 
     .about {
         background-size:8rem;
+        padding: 10px;
+        width: 100%;
     }
     .about-container {
         padding: 15px 20px;
@@ -120,6 +122,10 @@
         flex-direction: column;
         overflow: hidden;
         gap:20px;
+        padding: 10px;
+    }
+    .about-left {
+        flex: 1;
     }
     .about-image {
         height: 200px;

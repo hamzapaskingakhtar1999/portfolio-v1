@@ -92,6 +92,9 @@ a {
 @media screen and (max-width:768px) {
 
 
+    .hero-content {
+        padding: 10px;
+    }
     .hero-image {
         background-size: cover;
         justify-content: space-evenly;

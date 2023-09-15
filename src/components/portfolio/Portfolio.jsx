@@ -25,14 +25,26 @@ const Portfolio = () => {
               <h3>{item.title}</h3>
               <div className="portfolio-item-description">
                 {item.description}
+                <br /> <br />
+                <p>
+                  <strong>Technology Used: </strong>
+                  {item.stack}
+                </p>
               </div>
               <div className="portfolio-buttons">
-                <button className="portfolio-button">
-                  <span>Demo</span> <AiOutlineGithub className="button-icon" />
-                </button>
-                <button className="portfolio-button">
-                  <span>Code </span> <TfiNewWindow className="button-icon" />
-                </button>
+                <a href={item.demo}>
+                  {" "}
+                  <button className="portfolio-button">
+                    <span>Demo</span>{" "}
+                    <AiOutlineGithub className="button-icon" />
+                  </button>
+                </a>
+                <a href={item.code}>
+                  {" "}
+                  <button className="portfolio-button">
+                    <span>Code </span> <TfiNewWindow className="button-icon" />
+                  </button>
+                </a>
               </div>
             </div>
           </div>

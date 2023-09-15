@@ -8,6 +8,7 @@ import HPA from "../../assets/HPA.svg";
 
 /* React Icons */
 import { FaBars } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
 
 /* DOM */
 import { Link } from "react-router-dom";
@@ -45,7 +46,11 @@ const Navbar = () => {
       <div className="right hide">
         <button className="navbar-button">View Resume</button>
       </div>
-      <FaBars className="toggle-navbar" onClick={toggleNavbar} />
+      {active ? (
+        <AiOutlineClose className="toggle-navbar" onClick={toggleNavbar} />
+      ) : (
+        <FaBars className="toggle-navbar" onClick={toggleNavbar} />
+      )}
     </div>
   );
 };
