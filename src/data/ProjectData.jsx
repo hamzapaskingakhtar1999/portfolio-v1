@@ -6,6 +6,7 @@ import Car from "../assets/project/Car Rental.png";
 import Food from "../assets/project/Food.png";
 import Total from "../assets/project/Total.png";
 import Water from "../assets/project/Water.png";
+import Airport from "../assets/project/Airport.png";
 
 export const ProjectData = [
   {
@@ -18,6 +19,15 @@ export const ProjectData = [
     stack: "ReactJS + CSS",
   },
   {
+    img: Airport,
+    title: "Airport Taxi Booking",
+    description:
+      "A web app for booking a taxi for airport in the UK. Users can select the pickup and drop off location with autocomplete along with option to select from different fleets that are available.",
+    demo: "https://airport-taxi-booking-nextjs.vercel.app/",
+    code: "https://airport-taxi-booking-nextjs.vercel.app/",
+    stack: "NextJS + CSS",
+  },
+  {
     img: Car,
     title: "Car Rental",
     description:
@@ -26,6 +36,7 @@ export const ProjectData = [
     code: "https://car-rental-hpa.netlify.app/",
     stack: "ReactJS + CSS",
   },
+
   {
     img: Food,
     title: "Seiwa Fast Food",
