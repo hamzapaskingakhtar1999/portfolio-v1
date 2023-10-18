@@ -7,6 +7,7 @@ import Food from "../assets/project/Food.png";
 import Total from "../assets/project/Total.png";
 import Water from "../assets/project/Water.png";
 import Airport from "../assets/project/Airport.png";
+import Ashbourne from "../assets/project/Ashbourne.png";
 
 export const ProjectData = [
   {
@@ -72,6 +73,15 @@ export const ProjectData = [
     demo: "https://www.watertreatmentservices.ie/",
     code: "https://www.watertreatmentservices.ie/",
     stack: "Wix",
+  },
+  {
+    img: Ashbourne,
+    title: "Plumbing and Heating Landing Page",
+    description:
+      "A prototype landing page for a Plumbing and Heating company in Ireland.",
+    demo: "https://ashbourne.netlify.app/",
+    code: "https://ashbourne.netlify.app/",
+    stack: "ReactJS + CSS",
   },
   {
     img: Coin,
